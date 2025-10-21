@@ -215,7 +215,7 @@ export default function AgronomicPortal() {
             {/* SOLO */}
             <section role="tabpanel" id="panel-solo" aria-labelledby="tab-solo" hidden={tab !== "solo"}>
               <h2 className="text-lg font-semibold text-chlorophyll mb-3 border-l-4 border-chlorophyll pl-3">Análise de Solo</h2>
-              <iframe title="Hortipor (3)" width="1000" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMDMzZWEyYTctMGE3MC00ZjYyLTkxYTEtYWUyM2UxZTM4NWU0IiwidCI6IjRlNGJiMjQ3LWZjN2MtNGY3YS1iNTYzLTdiZTRmMDkzZWZkZCIsImMiOjl9&pageName=101883f99518a994bd0a" frameBorder="0" allowFullScreen></iframe>
+              <iframe title="demo" width="800" height="450" src="https://app.powerbi.com/view?r=eyJrIjoiMDMzZWEyYTctMGE3MC00ZjYyLTkxYTEtYWUyM2UxZTM4NWU0IiwidCI6IjRlNGJiMjQ3LWZjN2MtNGY3YS1iNTYzLTdiZTRmMDkzZWZkZCIsImMiOjl9&pageName=101883f99518a994bd0a" frameBorder="0" allowFullScreen></iframe>
             </section>
 
             {/* SONDAS */}
