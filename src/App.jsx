@@ -121,11 +121,28 @@ export default function AgronomicPortal() {
   return (
     <div className="h-screen bg-gradient-to-b from-chlorophyll/5 to-chlorophyll/10 text-gray-800">
       {/* Toolbar */}
-      <header role="toolbar" aria-label="Main application toolbar" className="fixed top-0 left-0 right-0 h-14 bg-white/90 backdrop-blur shadow-soft border-b border-chlorophyll/20 z-50">
+      <header role="toolbar" aria-label="Main application toolbar" className="fixed top-0 left-0 right-0 h-20 bg-white/90 backdrop-blur shadow-soft border-b border-chlorophyll/20 z-50">
         <div className="h-full px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+          {/* Left brand */}
           <div className="flex items-center gap-3">
             <div className="h-8 w-8 rounded-xl bg-chlorophyll text-white flex items-center justify-center font-bold"></div>
-            <div className="font-handwritten text-xl text-chlorophyll">Proof of concept Portal Dashboard</div>
+            <div className="font-handwritten text-xl text-chlorophyll">Dashboard VGT</div>
+          </div>
+
+          {/* Right logos */}
+          <div className="flex items-center gap-4">
+            <img
+              src="https://static.wixstatic.com/media/0bd59f_834440dac3ac4b01998e7533201b3961~mv2.png/v1/crop/x_0,y_11,w_1074,h_594/fill/w_282,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Food4Sustainability.png"
+              alt="Logo 1"
+              className="h-19 w-auto object-contain select-none"
+              draggable={false}
+            />
+            <img
+              src="https://raw.githubusercontent.com/Food4Sustainability/VGT_dashboard/refs/heads/main/vgt-portugal-logotipo-footer-e1747072837432-1024x576.png"
+              alt="Logo 2"
+              className="h-19 w-auto object-contain select-none"
+              draggable={false}
+            />
           </div>
         </div>
       </header>
