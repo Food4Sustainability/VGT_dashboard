@@ -1,0 +1,19 @@
+/* Put webfont imports FIRST (required) */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* Then Tailwind v4 */
+@import "tailwindcss";
+
+/* v4: declare your design tokens here */
+@theme {
+  --color-chlorophyll: #00a537;
+  --color-soil: #5eff00;
+  --color-sky: #8ecae6;
+  --color-sun: rgb(0, 255, 255);
+
+  /* expose your font as a utility: font-handwritten */
+  --font-handwritten: "Quicksand", cursive;
+}
+
+/* (optional) keep this helper if you still use it somewhere */
+.font-handwritten { font-family: "Quicksand", cursive; }
