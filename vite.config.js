@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/my-poc-app/', // 👈 important for GitHub Pages
+  base: '/VGT_dashboard/', // 👈 important for GitHub Pages
 })
