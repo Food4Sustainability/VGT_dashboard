@@ -226,15 +226,15 @@ export default function AgronomicPortal() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
                 <div className="bg-white rounded-2xl shadow-soft p-4">
                   <div className="text-xs text-gray-500">Temperatura média (dia)</div>
-                  <div className="text-3xl font-semibold text-sun">{Number.isFinite(avgTemp) ? `${avgTemp}°C` : "--"}</div>
+                  <div className="text-3xl font-semibold text-chlorophyll">{Number.isFinite(avgTemp) ? `${avgTemp}°C` : "--"}</div>
                 </div>
                 <div className="bg-white rounded-2xl shadow-soft p-4">
                   <div className="text-xs text-gray-500">Humidade média (dia)</div>
-                  <div className="text-3xl font-semibold text-sky">{Number.isFinite(avgHum) ? `${avgHum}%` : "--"}</div>
+                  <div className="text-3xl font-semibold text-chlorophyll">{Number.isFinite(avgHum) ? `${avgHum}%` : "--"}</div>
                 </div>
                 <div className="bg-white rounded-2xl shadow-soft p-4">
                   <div className="text-xs text-gray-500">Condutividade média (dia)</div>
-                  <div className="text-3xl font-semibold text-soil">{Number.isFinite(avgCond) ? `${avgCond} dS/m` : "--"}</div>
+                  <div className="text-3xl font-semibold text-chlorophyll">{Number.isFinite(avgCond) ? `${avgCond} dS/m` : "--"}</div>
                 </div>
               </div>
 
@@ -264,7 +264,6 @@ export default function AgronomicPortal() {
                 </div>
               </div>
 
-              <div className="text-xs text-gray-500 mt-3">Dados simulados para demonstração. Representam **médias horárias** de um único dia (batch local, p.ex. SD card).</div>
             </section>
 
             {/* DETECÇÃO REMOTA */}
