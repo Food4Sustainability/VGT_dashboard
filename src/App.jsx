@@ -76,7 +76,7 @@ export default function AgronomicPortal() {
         <aside className="flex-none border-r border-chlorophyll/20 bg-white select-none">
           <div className="relative h-[calc(100vh-3.5rem)] aspect-[546/829]">
             {/* Base image */}
-            <img src="/my-poc-app/mapa.jpg" alt="mapa" className="absolute inset-0 block h-full w-auto object-contain" draggable={false} />
+            <img src="/VGT_dashboard/mapa.jpg" alt="mapa" className="absolute inset-0 block h-full w-auto object-contain" draggable={false} />
 
             {/* SVG overlay (same 546x829 viewBox) */}
             <svg className="absolute inset-0 h-full w-full" viewBox="0 0 546 829" preserveAspectRatio="xMidYMid meet" aria-label="Mapa interativo" onClick={(e) => { if (e.target === e.currentTarget) setSelectedId(null); }}>
