@@ -232,7 +232,7 @@ export default function AgronomicPortal() {
             {/* SOLO */}
             <section role="tabpanel" id="panel-solo" aria-labelledby="tab-solo" hidden={tab !== "solo"}>
               <h2 className="text-lg font-semibold text-chlorophyll mb-3 border-l-4 border-chlorophyll pl-3">Análise de Solo</h2>
-              <iframe title="demo" width="850" height="550" src="https://app.powerbi.com/view?r=eyJrIjoiMTFiM2E4MDUtMDllMy00Yzk2LThjYzYtMmEwODRkOTVhMDM5IiwidCI6IjRlNGJiMjQ3LWZjN2MtNGY3YS1iNTYzLTdiZTRmMDkzZWZkZCIsImMiOjl9" frameBorder="0" allowFullScreen></iframe>
+              <iframe title="demo" width="850" height="550" src="https://app.powerbi.com/view?r=eyJrIjoiNjgzM2EwM2UtMmUzZS00MzEyLWExNWYtOTI3ZTg4NGQ5MmVmIiwidCI6IjRlNGJiMjQ3LWZjN2MtNGY3YS1iNTYzLTdiZTRmMDkzZWZkZCIsImMiOjl9" frameBorder="0" allowFullScreen></iframe>
             </section>
 
             {/* SONDAS */}
